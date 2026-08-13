@@ -1,0 +1,29 @@
+# Installing R and RStudio
+
+R is the actual programming language software that will run the code we want to execute. RStudio is an Integrated Development Environment (IDE), which basically acts as a wrapper for R, and allows us to run R code while also providing lots of additional helpful features.
+
+You could run your code directly in R if you wanted to, or you could also use one of the many other IDEs that are compatible with R (e.g. VSCode, Positron). For this class we will be using R and RStudio, as it is relatively simple to set this up and the IDE is easy to use.
+
+R is maintained by a core team of developers, and is hosted at the The Comprehensive R Archive Network (CRAN). RStudio is developed by a `company called Posit`. We will need to download both pieces of software separately.
+
+# Installing R
+
+First, we will download R from The Comprehensive R Archive Network (CRAN) at <https://cran.r-project.org/>.
+
+**Windows**
+
+Click *'Download R for Windows'*, then *'base'*, then *'Download R-4.61 for Windows'* (this will list the current version of R). This will download an R installer. Run this file to run the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.
+
+**Mac**
+
+Click *'Download R for macOS'*, then select the package version for your machine *'R-4.6.1-arm64.pkg'* (this will list the current version of R). Just like for windows, this will download an R installer. Run this file to run the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.
+
+# Installing RStudio
+
+We can download the RStudio IDE desktop version from the Posit website <https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads>
+
+Select the correct download for your computer's operating system (Windows/Mac/Linux). Once the download is complete, run the file to begin the installation wizard and follow the instructions. You can select the default options throughout.
+
+# Running RStudio
+
+Once installed, you can now open RStudio. Next, we will customise some options to set up our RStudio environment.

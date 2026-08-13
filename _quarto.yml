@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "Principles of Data Science for Political Research"
+  author: "Brian Paul Boyle"
+  date: "2026-08-13"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: test.qmd
+      chapters:
+        - install.qmd
+        - setup.qmd
+        - tinytex.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
