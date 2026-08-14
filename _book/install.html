@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Installing R and RStudio – Principles of Data Science for Political Research</title>
+<title>2&nbsp; Installing R – Principles of Data Science for Political Research</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./test.html">Getting set up</a></li><li class="breadcrumb-item"><a href="./install.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R and RStudio</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./test.html">Getting set up</a></li><li class="breadcrumb-item"><a href="./install.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./install.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R and RStudio</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -159,6 +159,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./helpers.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Shortcuts and Helpers</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -173,18 +179,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#installing-r" id="toc-installing-r" class="nav-link active" data-scroll-target="#installing-r"><span class="header-section-number">3</span> Installing R</a></li>
-  <li><a href="#installing-rstudio" id="toc-installing-rstudio" class="nav-link" data-scroll-target="#installing-rstudio"><span class="header-section-number">4</span> Installing RStudio</a></li>
-  <li><a href="#running-rstudio" id="toc-running-rstudio" class="nav-link" data-scroll-target="#running-rstudio"><span class="header-section-number">5</span> Running RStudio</a></li>
+  <li><a href="#installing-rstudio" id="toc-installing-rstudio" class="nav-link active" data-scroll-target="#installing-rstudio"><span class="header-section-number">2.1</span> Installing RStudio</a></li>
+  <li><a href="#running-rstudio" id="toc-running-rstudio" class="nav-link" data-scroll-target="#running-rstudio"><span class="header-section-number">2.2</span> Running RStudio</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./test.html">Getting set up</a></li><li class="breadcrumb-item"><a href="./install.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R and RStudio</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./test.html">Getting set up</a></li><li class="breadcrumb-item"><a href="./install.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R and RStudio</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installing R</span></h1>
 </div>
 
 
@@ -201,24 +206,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>R is the actual programming language software that will run the code we want to execute. RStudio is an Integrated Development Environment (IDE), which basically acts as a wrapper for R, and allows us to run R code while also providing lots of additional helpful features.</p>
-<p>You could run your code directly in R if you wanted to, or you could also use one of the many other IDEs that are compatible with R (e.g.&nbsp;VSCode, Positron). For this class we will be using R and RStudio, as it is relatively simple to set this up and the IDE is easy to use.</p>
-<p>R is maintained by a core team of developers, and is hosted at the The Comprehensive R Archive Network (CRAN). RStudio is developed by a <code>company called Posit</code>. We will need to download both pieces of software separately.</p>
-<section id="installing-r" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Installing R</h1>
-<p>First, we will download R from The Comprehensive R Archive Network (CRAN) at <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a>.</p>
+<p>Installing R and RStudio</p>
+<p><code>R</code> is the programming language software that will run the code we want to execute. <code>RStudio</code> is a separate piece of software called an Integrated Development Environment (IDE), which basically acts as a wrapper for R, and allows us to run our code while also providing lots of additional helpful features.</p>
+<p>You could run your code directly in R if you wanted to, but most people will use of the many different IDEs thare are compataible with R (e.g.&nbsp;VSCode, Positron). For this class we will be using R and RStudio, as it is relatively simple to set up and easy to use.</p>
+<p>R is maintained by a core team of developers, and is hosted at the <code>The Comprehensive R Archive Network (CRAN)</code>. <code>RStudio</code> is developed by a company called <code>Posit</code>. We will need to download both pieces of software separately.</p>
+<p>The first step is to download R from The Comprehensive R Archive Network (CRAN) here: <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a>.</p>
 <p><strong>Windows</strong></p>
-<p>Click <em>‘Download R for Windows’</em>, then <em>‘base’</em>, then <em>‘Download R-4.61 for Windows’</em> (this will list the current version of R). This will download an R installer. Run this file to run the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.</p>
+<p>Click <em>‘Download R for Windows’</em>, then <em>‘base’</em>, then <em>‘Download R-4.61 for Windows’</em> (when you do it, this will list the most recent version of R instead). This will download an R installer. Run this file to open the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.</p>
 <p><strong>Mac</strong></p>
-<p>Click <em>‘Download R for macOS’</em>, then select the package version for your machine <em>‘R-4.6.1-arm64.pkg’</em> (this will list the current version of R). Just like for windows, this will download an R installer. Run this file to run the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.</p>
-</section>
-<section id="installing-rstudio" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Installing RStudio</h1>
-<p>We can download the RStudio IDE desktop version from the Posit website <a href="https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads" class="uri">https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads</a></p>
+<p>Click <em>‘Download R for macOS’</em>, then select the package version for your machine <em>‘R-4.6.1-arm64.pkg’</em> (this will list the most recent version of R). Just like for windows, this will download an R installer. Run this file to start the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.</p>
+<section id="installing-rstudio" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="installing-rstudio"><span class="header-section-number">2.1</span> Installing RStudio</h2>
+<p>The next step is to download the RStudio IDE desktop version from the Posit website here: <a href="https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads" class="uri">https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads</a></p>
 <p>Select the correct download for your computer’s operating system (Windows/Mac/Linux). Once the download is complete, run the file to begin the installation wizard and follow the instructions. You can select the default options throughout.</p>
 </section>
-<section id="running-rstudio" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Running RStudio</h1>
+<section id="running-rstudio" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="running-rstudio"><span class="header-section-number">2.2</span> Running RStudio</h2>
 <p>Once installed, you can now open RStudio. Next, we will customise some options to set up our RStudio environment.</p>
 
 

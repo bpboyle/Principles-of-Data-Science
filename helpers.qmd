@@ -1,0 +1,20 @@
+# Shortcuts and Helpers
+
+A full list of keyboard shortcuts available in RStudio can be found [here](https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE)
+
+## Keyboard Shortcuts {.unnumbered}
+
+| Description                     | Windows & Linux | Mac              |
+|---------------------------------|-----------------|------------------|
+| Add Cursor Above Current Cursor | Ctrl+Alt+Up     | Ctrl+Option+Up   |
+| Add Cursor Below Current Cursor | Ctrl+Alt+Down   | Ctrl+Option+Down |
+
+
+
+
+Ctrl+Shift+R
+Ctrl+Alt+B
+Ctrl+Shift+F10
+
+
+dput()

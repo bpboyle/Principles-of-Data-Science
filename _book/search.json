@@ -1,0 +1,84 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Principles of Data Science for Political Research",
+    "section": "",
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "2  Installing R",
+    "section": "",
+    "text": "2.1 Installing RStudio\nInstalling R and RStudio\nR is the programming language software that will run the code we want to execute. RStudio is a separate piece of software called an Integrated Development Environment (IDE), which basically acts as a wrapper for R, and allows us to run our code while also providing lots of additional helpful features.\nYou could run your code directly in R if you wanted to, but most people will use of the many different IDEs thare are compataible with R (e.g. VSCode, Positron). For this class we will be using R and RStudio, as it is relatively simple to set up and easy to use.\nR is maintained by a core team of developers, and is hosted at the The Comprehensive R Archive Network (CRAN). RStudio is developed by a company called Posit. We will need to download both pieces of software separately.\nThe first step is to download R from The Comprehensive R Archive Network (CRAN) here: https://cran.r-project.org/.\nWindows\nClick ‘Download R for Windows’, then ‘base’, then ‘Download R-4.61 for Windows’ (when you do it, this will list the most recent version of R instead). This will download an R installer. Run this file to open the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.\nMac\nClick ‘Download R for macOS’, then select the package version for your machine ‘R-4.6.1-arm64.pkg’ (this will list the most recent version of R). Just like for windows, this will download an R installer. Run this file to start the R installation wizard, which will walk you through the installation. You can just select the default options at each stage.\nThe next step is to download the RStudio IDE desktop version from the Posit website here: https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads\nSelect the correct download for your computer’s operating system (Windows/Mac/Linux). Once the download is complete, run the file to begin the installation wizard and follow the instructions. You can select the default options throughout.",
+    "crumbs": [
+      "Getting set up",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installing R</span>"
+    ]
+  },
+  {
+    "objectID": "install.html#running-rstudio",
+    "href": "install.html#running-rstudio",
+    "title": "2  Installing R",
+    "section": "2.2 Running RStudio",
+    "text": "2.2 Running RStudio\nOnce installed, you can now open RStudio. Next, we will customise some options to set up our RStudio environment.",
+    "crumbs": [
+      "Getting set up",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Installing R</span>"
+    ]
+  },
+  {
+    "objectID": "helpers.html",
+    "href": "helpers.html",
+    "title": "6  Shortcuts and Helpers",
+    "section": "",
+    "text": "Keyboard Shortcuts\nA full list of keyboard shortcuts available in RStudio can be found here",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Shortcuts and Helpers</span>"
+    ]
+  },
+  {
+    "objectID": "helpers.html#keyboard-shortcuts",
+    "href": "helpers.html#keyboard-shortcuts",
+    "title": "6  Shortcuts and Helpers",
+    "section": "",
+    "text": "Description\nWindows & Linux\nMac\n\n\n\n\nAdd Cursor Above Current Cursor\nCtrl+Alt+Up\nCtrl+Option+Up\n\n\nAdd Cursor Below Current Cursor\nCtrl+Alt+Down\nCtrl+Option+Down",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Shortcuts and Helpers</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#licence",
+    "href": "index.html#licence",
+    "title": "Principles of Data Science for Political Research",
+    "section": "Licence",
+    "text": "Licence\n\nThis book is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licence.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
