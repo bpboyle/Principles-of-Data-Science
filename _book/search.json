@@ -10,6 +10,16 @@
     ]
   },
   {
+    "objectID": "index.html#licence",
+    "href": "index.html#licence",
+    "title": "Principles of Data Science for Political Research",
+    "section": "Licence",
+    "text": "Licence\n\nThis book is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licence.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Introduction",
@@ -42,11 +52,54 @@
     ]
   },
   {
+    "objectID": "tinytex.html",
+    "href": "tinytex.html",
+    "title": "4  Rendering Quarto PDFs with Tinytex",
+    "section": "",
+    "text": "4.1 Rendering PDFs in Quarto\nIn order to create PDFs with quarto, we need to have a LaTeX installation on our computer. LaTeX is a type of programming language used for typesetting pdf documents. The easiest way to get this working for Quarto is by installing a peice of software called ‘Tinytex’, which is a lighweight version of LaTeX.",
+    "crumbs": [
+      "Getting set up",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Rendering Quarto PDFs with Tinytex</span>"
+    ]
+  },
+  {
+    "objectID": "tinytex.html#method-1---install-via-the-tinytex-r-package",
+    "href": "tinytex.html#method-1---install-via-the-tinytex-r-package",
+    "title": "4  Rendering Quarto PDFs with Tinytex",
+    "section": "4.2 Method 1 - Install via the tinytex R package",
+    "text": "4.2 Method 1 - Install via the tinytex R package\nOpen Rstudio, and run the code below in the console to install the tinytex R package\n\ninstall.packages(\"tinytex\")\n\nOnce the package is installed, run this code in the console\n\ntinytex::install_tinytex()\n\nThis will download tinytex and install it on your computer. Once the installation is complete, you should now be able to render pdf files in Quarto.",
+    "crumbs": [
+      "Getting set up",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Rendering Quarto PDFs with Tinytex</span>"
+    ]
+  },
+  {
+    "objectID": "tinytex.html#method-2---install-tinytex-via-terminal-in-rstudio",
+    "href": "tinytex.html#method-2---install-tinytex-via-terminal-in-rstudio",
+    "title": "4  Rendering Quarto PDFs with Tinytex",
+    "section": "4.3 Method 2 - Install tinytex via Terminal in RStudio",
+    "text": "4.3 Method 2 - Install tinytex via Terminal in RStudio\nIf you have any issues with the first method, an alternative way of installing tinytex is by using the terminal within RStudio.\n\nStep 1\nOpen RStudio, and click the ‘Terminal’ tab in the console window.\n\n\n\n\n\n\n\nStep 2\nYou should see a window that looks like this, with a flashing cursor (the filepath that is shown here will be different on your computer).\n\n\n\n\n\n\n\nStep 3\nType ‘quarto install tinytex’ and press enter.\n\n\n\n\n\n\n\nStep 4\nTinytex will then download and install to your computer. Once complete, you can now render pdf files in quarto.\n\n\n\n\n\n\n\nStep 5\nIf the file renders correctly, it should look something like this.\n\n\n\n\n\nWe can now create pdf files with Quarto!",
+    "crumbs": [
+      "Getting set up",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Rendering Quarto PDFs with Tinytex</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "5  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
     "objectID": "helpers.html",
     "href": "helpers.html",
     "title": "6  Shortcuts and Helpers",
     "section": "",
-    "text": "Keyboard Shortcuts\nA full list of keyboard shortcuts available in RStudio can be found here",
+    "text": "Keyboard Shortcuts\nA full list of keyboard shortcuts available in RStudio can be found here\nCtrl+Shift+R Ctrl+Alt+B Ctrl+Shift+F10\ndput()",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Shortcuts and Helpers</span>"
     ]
@@ -59,16 +112,6 @@
     "text": "Description\nWindows & Linux\nMac\n\n\n\n\nAdd Cursor Above Current Cursor\nCtrl+Alt+Up\nCtrl+Option+Up\n\n\nAdd Cursor Below Current Cursor\nCtrl+Alt+Down\nCtrl+Option+Down",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Shortcuts and Helpers</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#licence",
-    "href": "index.html#licence",
-    "title": "Principles of Data Science for Political Research",
-    "section": "Licence",
-    "text": "Licence\n\nThis book is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Licence.",
-    "crumbs": [
-      "Preface"
     ]
   },
   {
